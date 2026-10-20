@@ -95,6 +95,25 @@ The system calculates risk levels based on model confidence.
 - Joblib
 - Streamlit
 
+## How to Run
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/fatimanoorx7/AI-Malicious-URL-Detection.git
+cd AI-Malicious-URL-Detection
+pip install -r requirements.txt
+```
+
+Run the Streamlit web application:
+
+```bash
+streamlit run web.py
+```
+
+This will open the app in your browser, where you can enter a URL to get
+its classification, risk level, and downloadable report.
+
 ## Project Files
 
 - `app.py` — Streamlit application code for URL analysis, prediction, risk assessment, security recommendations, and report generation.
